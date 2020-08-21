@@ -20,12 +20,12 @@ The short hint is displayed in the input field before the user enters a value.
 The box-sizing property allows us to include the padding and border in an element's total width and height.
 If we set box-sizing: border-box; on an element, padding and border are included in the width and height:
 
-`
+```
 *{
 	box-sizing: border-box;
 }
 
-`
+```
 
 ## References
 

@@ -4,6 +4,15 @@
 
 This Web-App allows the user to search for a song in the search bar and it displays the results with pagination. Once clicked on the "Get Lyrics" button, the lyrics of the chosen song is displayed with lyrics functionality. It uses the lyrics.ovh API.
 
+## Home(index)
+
+The html file is a simple one containing a form to take the search input from the user.It has a placeholder to show some test. The lower part of the page will contain the results as and when the results will be loaded.
+
+### PlaceHolder
+
+The placeholder attribute specifies a short hint that describes the expected value of an input field (e.g. a sample value or a short description of the expected format).
+The short hint is displayed in the input field before the user enters a value.
+
 ## References
 
 https://lyricsovh.docs.apiary.io/#

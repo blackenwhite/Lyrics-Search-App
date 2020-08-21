@@ -47,6 +47,10 @@ input:focus,button:focus{
 
 Cursor is set to be pointer. And when the button is active we are scaling down the size of the button to 0.95 . Focus is also added. Outline is an element property which draws a line around element but outside the border. It does not take space from the width of an element like border.
 
+### Header styling
+
+A suitable image is selected for background in the header. Display is set to be flex. Flex direction to be column. Text clor to be white. Items are aligned at center.
+
 ## References
 
 https://lyricsovh.docs.apiary.io/#

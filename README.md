@@ -43,8 +43,12 @@ input:focus,button:focus{
 }
 
 ```
+##### Explanation
+
+Cursor is set to be pointer. And when the button is active we are scaling down the size of the button to 0.95 . Focus is also added. Outline is an element property which draws a line around element but outside the border. It does not take space from the width of an element like border.
 
 ## References
 
 https://lyricsovh.docs.apiary.io/#
 https://www.w3schools.com/tags/att_input_placeholder.asp
+https://www.geeksforgeeks.org/how-to-remove-focus-around-buttons-on-click/

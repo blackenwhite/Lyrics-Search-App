@@ -27,6 +27,23 @@ If we set box-sizing: border-box; on an element, padding and border are included
 
 ```
 
+### Transform
+```
+button{
+	cursor: pointer;
+}
+
+button:active{
+	transform:scale(0.955);
+}
+
+input:focus,button:focus{
+	outline:none;
+
+}
+
+```
+
 ## References
 
 https://lyricsovh.docs.apiary.io/#

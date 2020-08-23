@@ -48,7 +48,8 @@ Cursor is set to be pointer. And when the button is active we are scaling down t
 
 A suitable image is selected for background in the header. Display is set to be flex. Flex direction to be column. Text clor to be white. Items are aligned at center. rgba() is used to set how much bright the background image would be.
 
-### Script
+
+## Script
 
 First of all we need to grab all elements and assign relatable variable-names to them. This can be done document.getElementById().
 ```const form = document.getElementById('form');
@@ -56,6 +57,10 @@ const search = document.getElementById('search');
 const result = document.getElementById('result');
 const more = document.getElementById('more');
 ```
+### Document.getElementById()
+
+The Document method getElementById() returns an Element object representing the element whose id property matches the specified string. Since element IDs are required to be unique if specified, they're a useful way to get access to a specific element quickly.
+
 
 ## References
 

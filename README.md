@@ -24,7 +24,7 @@ If we set box-sizing: border-box; on an element, padding and border are included
 	box-sizing: border-box;
 }
 ```
-
+ 
 ### Transform
 ```button{
 	cursor: pointer;

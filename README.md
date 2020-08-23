@@ -48,6 +48,15 @@ Cursor is set to be pointer. And when the button is active we are scaling down t
 
 A suitable image is selected for background in the header. Display is set to be flex. Flex direction to be column. Text clor to be white. Items are aligned at center. rgba() is used to set how much bright the background image would be.
 
+### Script
+
+First of all we need to grab all elements and assign relatable variable-names to them. This can be done document.getElementById().
+```const form = document.getElementById('form');
+const search = document.getElementById('search');
+const result = document.getElementById('result');
+const more = document.getElementById('more');
+```
+
 ## References
 
 https://lyricsovh.docs.apiary.io/#

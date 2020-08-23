@@ -61,9 +61,31 @@ const more = document.getElementById('more');
 
 The Document method getElementById() returns an Element object representing the element whose id property matches the specified string. Since element IDs are required to be unique if specified, they're a useful way to get access to a specific element quickly.
 
+apiURL is 'https://api.lyrics.ovh';
+
+### Async and await
+
+A promise is a special JavaScript object that links the “producing code” and the “consuming code” together. In terms of our analogy: this is the “subscription list”. The “producing code” takes whatever time it needs to produce the promised result, and the “promise” makes that result available to all of the subscribed code when it’s ready.
+There’s a special syntax to work with promises in a more comfortable fashion, called “async/await”.
+
+The word “async” before a function means one simple thing: a function always returns a promise. Other values are wrapped in a resolved promise automatically.For example,
+```async function searchSongs(term) {
+  const res = await fetch(`${apiURL}/suggest/${term}`);
+  const data = await res.json();
+
+  showData(data);
+}
+```
+
+So, async ensures that the function returns a promise, and wraps non-promises in it. Simple enough, right? But not only that. There’s another keyword, await, that works only inside async functions, and it’s pretty cool.
+
 
 ## References
 
 https://lyricsovh.docs.apiary.io/#
+
 https://www.w3schools.com/tags/att_input_placeholder.asp
+
 https://www.geeksforgeeks.org/how-to-remove-focus-around-buttons-on-click/
+
+https://javascript.info/async-await

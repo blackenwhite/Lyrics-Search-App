@@ -79,6 +79,15 @@ The word “async” before a function means one simple thing: a function always
 
 So, async ensures that the function returns a promise, and wraps non-promises in it. Simple enough, right? But not only that. There’s another keyword, await, that works only inside async functions, and it’s pretty cool.
 
+Await
+
+The syntax:
+
+// works only inside async functions
+let value = await promise;
+
+The keyword await makes JavaScript wait until that promise settles and returns its result.
+
 
 ## References
 
